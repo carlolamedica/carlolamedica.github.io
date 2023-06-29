@@ -22,8 +22,8 @@
 }.navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
     position: relative;
+    margin: 0 10px;
 }.navbar ul li a{
     text-decoration: none;
     text-size-adjust: auto;
@@ -90,4 +90,10 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+
+@media only screen and (min-width: 412px){
+    .navbar ul li{
+        margin: 0 20px;
+    }
 }
