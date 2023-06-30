@@ -12,8 +12,12 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(REALSTUDY.png);
     background-size: cover;
     background-position: center;
-}.navbar{
-    width: 90%;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.569);
+    background-clip: content-box;
+    height: 50px;
+    width: 100%;
     margin: auto;
     padding: 50px 0;
     display: flex;
@@ -56,10 +60,13 @@
     font-weight: 100;
     margin: 20px auto;
     line-height: 25px;
+    padding-bottom: 50px;
 }
-button{
+.button{
+    color: #fff;
+    text-decoration: none;
     width: 200px;
-    padding: 15px 0;
+    padding: 15px 30px;
     text-align: center;
     text-transform: uppercase;
     margin: 20px 10px;
@@ -68,7 +75,6 @@ button{
     font-weight: bold;
     border: 1px solid #724fffaf;
     background: transparent;
-    color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -83,12 +89,18 @@ span{
     bottom: 0;
     z-index: -1;
     transition: 0.3s;
-}
-button:hover span{
+}.button:hover span{
     width: 100%;
-}
-button:hover{
+}.button:hover{
     border: none;
+}
+
+nav.sticky{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .description{
@@ -145,6 +157,7 @@ h1{
     margin: auto;
     padding-top: 50px;
     text-align: center;
+    padding-bottom: 50px;
 }
 .test-col{
     flex-basis: 44%;
@@ -164,12 +177,12 @@ h1{
 
 .contactus {
     width: 80%;
-    margin: auto;
     padding-top: 50px;
-    text-align: center;
     margin-bottom: 100px;
-    background: #724fff1d;
     padding-inline: 10px;
+    background: #724fff1d;
+    margin: auto;
+    text-align: center;
 }.contactus form.module {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +198,7 @@ h1{
     outline: none;
     background: transparent;
     color: #fff;
+    font-size: 20px;
 }
 
 .footer{
@@ -209,5 +223,8 @@ h1{
     }
     .row{
         flex-direction: column;
+    }
+    .inputfield{
+        font-size: 13px;
     }
 }
