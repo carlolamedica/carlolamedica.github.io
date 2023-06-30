@@ -26,7 +26,6 @@
     margin: 0 10px;
 }.navbar ul li a{
     text-decoration: none;
-    text-size-adjust: auto;
     color: #fff;
     text-transform: uppercase;
 }.navbar ul li::after{
@@ -92,8 +91,106 @@ button:hover{
     border: none;
 }
 
-@media only screen and (min-width: 412px){
-    .navbar ul li{
-        margin: 0 20px;
+.description{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.description h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #c9c9c9;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-inline: 5px;
+}
+.description h3{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.desc-col{
+    flex-basis: 31%;
+    background: #724fff1d;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.desc-col:hover{
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+}
+
+h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.test-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #724fff1d;
+    cursor: pointer;
+    display: flex;
+}.test-col p{
+    margin: 10px;
+}.test-col h3{
+    margin: 10px;
+    color: #ddda9e;
+    margin-left: 5%;
+}
+
+.contactus {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.footer{
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(REALSTUDY.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+
+@media(max-width: 700px){
+    .content h1{
+        font-size: 50px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .navbar ul li a{
+        display: block;
+    }
+    .row{
+        flex-direction: column;
     }
 }
