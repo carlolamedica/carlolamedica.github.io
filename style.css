@@ -168,6 +168,23 @@ h1{
     padding-top: 50px;
     text-align: center;
     margin-bottom: 100px;
+    background: #724fff1d;
+    padding-inline: 10px;
+}.contactus form.module {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}.inputfield{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #724fffaf;
+    outline: none;
+    background: transparent;
+    color: #fff;
 }
 
 .footer{
