@@ -95,7 +95,7 @@ span{
     border: none;
 }
 
-nav.sticky{
+.navbar.sticky{
     position: fixed;
     width: 100%;
     display: flex;
