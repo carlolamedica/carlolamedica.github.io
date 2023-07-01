@@ -212,6 +212,10 @@ h1{
 
 
 @media(max-width: 700px){
+    .button{
+        display: inline-block;
+        padding: 15px 0;
+    }
     .content h1{
         font-size: 50px;
     }
