@@ -48,8 +48,8 @@
 .content{
     width: 100%;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 70%;
+    transform: translateY(-70%);
     text-align: center;
     color: #fff;
 }.content h1{
@@ -97,10 +97,6 @@ span{
 
 .navbar.sticky{
     position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .description{
@@ -174,7 +170,6 @@ h1{
     color: #ddda9e;
     margin-left: 5%;
 }
-
 .contactus {
     width: 80%;
     padding-top: 50px;
