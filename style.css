@@ -47,9 +47,7 @@
 }
 .content{
     width: 100%;
-    position: absolute;
-    top: 70%;
-    transform: translateY(-70%);
+    position: relative;
     text-align: center;
     color: #fff;
 }.content h1{
@@ -93,10 +91,6 @@ span{
     width: 100%;
 }.button:hover{
     border: none;
-}
-
-.navbar.sticky{
-    position: fixed;
 }
 
 .description{
